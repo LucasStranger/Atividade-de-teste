@@ -1,0 +1,263 @@
+{
+  "id": "c5ad8737-8ee3-4b82-afeb-01835732edc7",
+  "version": "2.0",
+  "name": "Atividade",
+  "url": "https://wwws.facipe.edu.br",
+  "tests": [{
+    "id": "a8090dd1-4f61-4554-9a2f-0df84a25f341",
+    "name": "teste1daatividade",
+    "commands": [{
+      "id": "6b9ea614-4bbe-44b2-975c-ac4d5500333d",
+      "comment": "",
+      "command": "open",
+      "target": "/Portal/Index.jsp",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c4e174c-6bbb-4555-a959-2b49ddd3f603",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1152x614",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9245677-a3e0-4d2f-b483-d3f0e53b172f",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7850c8-230c-4038-9bba-80b23faea97d",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=td:nth-child(4) .edit", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td[4]/div/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8223a6d8-ed9a-4b62-afa6-a699fd7f6303",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=td:nth-child(4) .edit", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr/td[4]/div/font/input", "xpath:idRelative"],
+        ["xpath=//font/input", "xpath:position"]
+      ],
+      "value": "1232301938"
+    }, {
+      "id": "643602ec-6927-4608-9d71-bc0da13c871c",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=td:nth-child(2) > div .edit", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr[2]/td[2]/div/font/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/font/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "425c4c0e-2687-484f-b113-a7e394b3634b",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=td:nth-child(2) > div .edit", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form1']/table/tbody/tr[2]/td[2]/div/font/input", "xpath:idRelative"],
+        ["xpath=//td[2]/div/font/input", "xpath:position"]
+      ],
+      "value": "Lucas19032008@"
+    }, {
+      "id": "fc79503a-c82b-4975-8c5d-f9f693580429",
+      "comment": "",
+      "command": "click",
+      "target": "css=div td:nth-child(3)",
+      "targets": [
+        ["css=div td:nth-child(3)", "css:finder"],
+        ["xpath=//div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d45574e-abfe-4a69-84a2-4def5e3a0d64",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td > table > tbody > tr > td",
+      "targets": [
+        ["css=tr:nth-child(3) > td > table > tbody > tr > td", "css:finder"],
+        ["xpath=//tr[3]/td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5639013b-ab77-4efe-90b6-1057653b0eb2",
+      "comment": "",
+      "command": "click",
+      "target": "css=div td:nth-child(3)",
+      "targets": [
+        ["css=div td:nth-child(3)", "css:finder"],
+        ["xpath=//div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b23e3e4-8bde-48a0-9273-9db4bffb2e2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=div td:nth-child(3)",
+      "targets": [
+        ["css=div td:nth-child(3)", "css:finder"],
+        ["xpath=//div/table/tbody/tr/td[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca469e7d-dbd8-4601-876e-b4f7410a7df6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=OK",
+      "targets": [
+        ["linkText=OK", "linkText"],
+        ["css=td:nth-child(2) > div a", "css:finder"],
+        ["xpath=//a[contains(text(),'OK')]", "xpath:link"],
+        ["xpath=//a[@onclick='formSubmit()']", "xpath:attributes"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//td[2]/div/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c131281e-f0b2-4b59-b097-c69baa64cd0c",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f91bc1b-b32d-41e3-a15d-f1e319a64fd9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "535d8f7e-1a5e-4ad2-b475-7a4981947fd9",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc8c2043-70a3-4276-a5c3-42c07e6d3f55",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(3) > tbody > tr > td:nth-child(1)",
+      "targets": [
+        ["css=table:nth-child(3) > tbody > tr > td:nth-child(1)", "css:finder"],
+        ["xpath=//table[2]/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de52982e-8f2e-4010-b30c-8dfdf48735e6",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "45e8bee5-2b8f-428e-a676-b3fefbe67524",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9989a022-f020-4794-8953-2fcd78197f66",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3435107-d3a6-4663-bdf8-bb861631c18f",
+      "comment": "",
+      "command": "click",
+      "target": "css=td:nth-child(5) > input:nth-child(1)",
+      "targets": [
+        ["css=td:nth-child(5) > input:nth-child(1)", "css:finder"],
+        ["xpath=(//input[@name='image1'])[2]", "xpath:attributes"],
+        ["xpath=//td[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af79ea52-3d76-48da-9575-72e79e346e3b",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "c4fad702-0962-4710-9e9a-a6ba24f62b14",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "f16a7410-3c88-4355-8356-b017bf4c2531",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "fec931e9-2668-49de-971f-f8be3a485f03",
+      "comment": "",
+      "command": "click",
+      "target": "css=table:nth-child(12) > tbody > tr:nth-child(1) div",
+      "targets": [
+        ["css=table:nth-child(12) > tbody > tr:nth-child(1) div", "css:finder"],
+        ["xpath=//td/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a95f67b8-aff0-438b-a6c3-00c21a439d75",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a8090dd1-4f61-4554-9a2f-0df84a25f341"]
+  }],
+  "urls": ["https://wwws.facipe.edu.br/"],
+  "plugins": []
+}
