@@ -54,7 +54,7 @@
         ["xpath=//form[@id='form1']/table/tbody/tr/td[4]/div/font/input", "xpath:idRelative"],
         ["xpath=//font/input", "xpath:position"]
       ],
-      "value": "1232301938"
+      "value": "1232334628"
     }, {
       "id": "643602ec-6927-4608-9d71-bc0da13c871c",
       "comment": "",
@@ -80,7 +80,7 @@
         ["xpath=//form[@id='form1']/table/tbody/tr[2]/td[2]/div/font/input", "xpath:idRelative"],
         ["xpath=//td[2]/div/font/input", "xpath:position"]
       ],
-      "value": "Lucas19032008@"
+      "value": "Lu"
     }, {
       "id": "fc79503a-c82b-4975-8c5d-f9f693580429",
       "comment": "",
